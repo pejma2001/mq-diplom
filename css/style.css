@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Bold.woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-Regular.woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+html {
+	font-family: "Open Sans", sans-serif;
+}
+@media(max-width:320px){
+.body-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 320px;
+}
+.block{
+margin-left: 20px;
+margin-right: 20px;
+}
+.block-one{
+background-color: #000000;
+color: #ffffff;
+padding-bottom: 85px;
+}
+.block-one-icon{
+	display: block;
+
+	width: 132px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+}
+.block1-h1{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 135px;
+	
+}
+.first-word-block1{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.second-word-block1{
+	display: inline-block;
+	margin-left: 66px;
+	margin-top: 30px;
+}
+.third-word-block1{
+	display: inline-block;
+	margin-left: 66px;
+	margin-top: 15px;
+}
+.download{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 90px;
+	height: 36px;
+	background-color: #5e42b0;
+	
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.download:nth-child(2n+2){
+	margin-top: 15px;
+}
+.download-icon{
+	width: 20px;
+	height: 20px;
+}
+.block1-h2{
+	font-size: 8px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+
+}
+.block1-h3{
+	font-size: 8px;
+	text-transform: uppercase;
+	font-weight: 700;
+color: #ffffff;
+}
+.block-two{
+margin-bottom: 50px;
+}
+.block2-h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	color: #e7e7e7;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.img-block2{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.art-block-two{
+margin-top: 30px;
+}
+.block2-h3{
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 4px solid #5e42b0;
+	padding-bottom: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.block2-h4{
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.text-block2{
+	margin-top: 30px;
+	font-size: 15px;
+}
+.art-block-three{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.block-three{
+	background-color: #5e42b0;
+}
+.block3-h3{
+	font-size: 14px;
+	font-weight: bold;
+	
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.block3-h4{
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.text-block3{
+	margin-top: 30px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+
+.block-four{
+margin-bottom: 50px;
+}
+.block4-h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+	color: #e7e7e7;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+.img-block4{
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.art-block-four{
+margin-top: 30px;
+}
+.block4-h3{
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 4px solid #5e42b0;
+	padding-bottom: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.block4-h4{
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.text-block4{
+	margin-top: 30px;
+	font-size: 15px;
+}
+.art-block-five{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.block-five{
+	background-color: #000000;
+}
+.block5-h3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #5e42b0;
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.block5-h4{
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.text-block5{
+	margin-top: 30px;
+	font-size: 15px;
+	color: #ffffff;
+}
+.aside-block1 { 
+margin-top: 35px;
+ }
+.bg-image{
+	background: url(../images/be-active.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+    background-position: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.aside-block1-h5{
+	font-weight: bold;
+	font-size: 28px;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.aside-block1-text {
+	font-size: 16px;
+}
+.mini-block{
+	width: 70px;
+	height: 70px;
+	background-color: #5e42b0;
+	position: absolute;
+top: 293px;
+    left: 20px;
+}
+.paragraph-mini-b{
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	border-bottom: 4px solid #8f7bc8;
+	
+	display: inline-block;
+}
+.aside-block2 { 
+margin-top: 35px;
+ }
+.bg-image2{
+	background: url(../images/find-contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+    background-position: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.aside-block2-h5{
+	font-weight: bold;
+	font-size: 28px;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.aside-block2-text {
+	font-size: 16px;
+}
+
+.aside-block3 { 
+margin-top: 35px;
+margin-bottom: 70px;
+ }
+.bg-image3{
+	background: url(../images/work-it.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+    background-position: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.aside-block3-h5{
+	font-weight: bold;
+	font-size: 28px;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.aside-block3-text {
+	font-size: 16px;
+}
+
+.svg-bg{
+	width: 70px;
+	height: 70px;
+	background-color: #563ba3;
+	border-radius: 20px;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 100px;
+}
+.block-one-icon2{
+	display: block;
+position: absolute;
+	width: 132px;
+	height: 40px;
+	top: 13px;
+    left: -31px;
+}
+.block2-h1{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: normal;
+	margin-top: 60px;
+	
+}
+.first-word-block2{
+	display: inline-block;
+	margin-left: 20px;
+font-size: 28px;
+	font-weight: bold;
+}
+.second-word-block2{
+	display: inline-block;
+	
+	margin-top: 10px;
+	font-size: 14px;
+	color: #9b8ec1;
+}
+}
